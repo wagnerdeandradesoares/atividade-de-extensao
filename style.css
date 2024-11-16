@@ -18,16 +18,21 @@ header {
 header .logo h1 {
     color: white;
     font-size: 24px;
-    display: inline-block;
+
 }
 
 header nav {
-    float: right;
+    display: flex;
+    justify-content: space-around;
+     
+
 }
 
 header .nav-links {
     list-style-type: none;
     padding: 0;
+    align-content: center;
+    
 }
 
 header .nav-links li {
